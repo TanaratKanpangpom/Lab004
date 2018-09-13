@@ -8,18 +8,22 @@ namespace Lab04
         {
 
 
-            try
-            {
-                Console.Write("Please enter value 1 :");
-                int val1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Please enter value 2 :");
-                int val2 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Answer = " + (val1 + val2));
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error : " + e.ToString());
-            }
+            String name, Lastname;
+            int SID;
+            double GPA;
+            Console.WriteLine("plsea name");
+            name = Console.ReadLine();
+            Console.WriteLine("plsea Lastname");
+            Lastname = Console.ReadLine();
+            Console.WriteLine("plsea sid");
+            int.TryParse(Console.ReadLine(), out SID);
+            Console.WriteLine("plsea gpa");
+            double.TryParse(Console.ReadLine(), out GPA);
+
+            Console.WriteLine("Name: {0}", name);
+            Console.WriteLine("Age: {0}", Lastname);
+            Console.WriteLine("Height: {0}", SID);
+            Console.WriteLine("Height: {0}", GPA);
 
 
 
