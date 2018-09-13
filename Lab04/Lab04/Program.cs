@@ -8,10 +8,10 @@ namespace Lab04
         {
 
 
-            char ch;
-            Console.Write("Press a key followed by ENTER:");
-            ch = Console.Read();  // get a char
-            Console.WriteLine("Your key is: " + ch);
+            string str;
+            Console.Write("Enter some characters.");
+            str = Console.Read();
+            Console.WriteLine("You entered: " + str);
 
 
 
