@@ -6,8 +6,8 @@ namespace Lab04
     {
         static void Main(string[] args)
         {
-            Console.Write(  "Hello");
-            Console.ReadKey();
+            Console.Write("Hello");
+           
         }
     }
 }
