@@ -9,9 +9,10 @@ namespace Lab04
 
 
             string str;
-            Console.Write("Enter some characters.");
-            str = Console.ReadLine();
-            Console.WriteLine("You entered: " + str);
+            Console.Write("Please enter value 1 : ");
+            int val1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(val1);
+
 
 
 
